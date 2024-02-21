@@ -10,7 +10,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
 }
-.Container
+#home-section
 {
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("image/bg.JPEG");
     background-position: center;
@@ -79,23 +79,25 @@ span{
     color: #6F4E37;
 }
 /* contact section */
-.contact-section
+#contact-section
 {
     width: 100vw;
     height: 50vh;
 }
 .contact-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr); /* Three equal columns */
+    gap: 10px; /* Gap between grid items */
+    padding: 30px;
 }
 .contact-container .media
-{grid-template-columns: auto;
+{
     width: 250px; 
 }
 .title{
     color: #fcd021;
     font-size: 25px;
+    padding-bottom: 10px;
 }
 #FBIcon,
 #IGIcon,
@@ -119,17 +121,16 @@ span{
     background-color: #f0c310;
     transform: scale(1.10);
 }
-.contact-container.contactInfo
-{
-    
+.contact-container .getting-start a{
+    text-decoration: none;
+    display: block;
+    padding-top: 15px;
 }
-.contact-container .contactInfo{
-
+.QRcode{
+    width: 200px;
 }
-.contact-container .getting-start{
-
-}
-.contact-container .loacation{
-    
+#product-section{
+    width: 100vw;
+    height: 100vh;
 }
 

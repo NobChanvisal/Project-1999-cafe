@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="Container">
+    <section id="home-section">
         <header>
             <div class="navbar">
                 <div class="logo"><img src="image/Logo.png" alt="logo"></div>
@@ -20,18 +20,29 @@
                 </div>
             </div>
         </header>
-        <section class="product-name">
+        <div class="product-name">
         <div class="content">
             <h1 class="name">១៩៩៩</h1>
             <span>Coffee and Milk Tea</span>
         </div>
-        </section>
-    </div>
+        </div>
+    </section>
+    <!-- Product -->
+    <section id="product-section">
+        <div class="product-container">
+            <div>OUR PRODUCT</div>
+            <div class="item">
+                <div>
+                    <img src="" alt="">
+                </div>
+            </div>
+        </div>
+    </section>+
     <!-- contact -->
-    <section class="contact-section">
+    <section id="contact-section">
         <div class="contact-container">
             <div class="media">
-                    <div class="title">Our Social Media</div>
+                    <div class="title">Social Media</div>
                     <p class="detail">
                         Your can follow us on our Social Media 
                         by click on the link are given below.
@@ -45,18 +56,16 @@
             <div class="contactInfo">
                 <div class="title">Contact Info</div>
                 <div class="phone">
-                    <i class='bx bx-phone'></i>
-                    <p>096 592 0585</p>
+                    <i class='bx bx-phone'> 096 592 0585</i>
                 </div> 
                 <div class="email">
-                    <i class='bx bx-envelope' ></i>
-                    <p>Username@gmail.com</p>
+                    <i class='bx bx-envelope' > Username@gmail.com</i>  
                 </div>   
             </div>
             <div class="getting-start">
                 <div class="title">Getting Started</div>
-                <a href="#">HOME</a>
-                <a href="#">PRODUCT</a>
+                <a href="#home-section">HOME</a> 
+                <a href="#product-section">PRODUCT</a>
                 <a href="#">DICOUNT</a>
                 <a href="#">CONTACT</a>
             </div>
@@ -66,7 +75,7 @@
                     You can find our store on google mape
                     by scan QR code.
                 </p>
-                <img src="image/map.jpg" alt="">
+                <img class="QRcode"src="image/map.jpg" alt="">
             </div>
         </div>
     </section>
